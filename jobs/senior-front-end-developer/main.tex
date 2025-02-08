@@ -1,0 +1,103 @@
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+\ifxetexorluatex
+  \setmainfont{Carlito}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+\definecolor{Mulberry}{HTML}{72243D}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{Sepia}
+\colorlet{accent}{Mulberry}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+\name{Duong Minh Nhut}
+\tagline{Front-End Web Developer}
+\personalinfo{
+  \email{nhutdm@gmail.com}
+  \phone{0987-195-190}
+  \mailaddress{18B1/22 Pham Hung St}
+  \location{Ho Chi Minh City, Vietnam}
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\cvsection[page1sidebar]{Summary}
+A front-end web developer with more than 5 years of experience building websites, hybrid applications in fast-paced, collaborative environments. Highly skilled in React, Angular, HTML, CSS and JavaScript.
+
+\cvsection{Experience}
+\cvevent{Software Engineer}{DXC Technology}{Jan 2016 -- Ongoing}{Ho Chi Minh City, Vietnam}
+\begin{itemize}
+\item Built responsive web components that well-tested with React, Styled Component, Jest, Enzyme and integrated with Next.js and Express.js powered corporation websites.
+\item Developed hybrid application that runs on cross-platform integrated with government healthcare system with Ionic, Angular, and RxJS.
+\item Experienced in working in Agile environment with colleagues from different countries.
+\end{itemize}
+\divider
+
+\cvevent{Web Developer}{webfire}{Sep 2014 -- Dec 2015}{London, United Kingdom}
+\begin{itemize}
+\item Built many websites use HTML, CSS, jQuery, PHP, and WordPress.
+\item Collaborated directly with the product owner to transfer the graphic design to custom CMS.
+\end{itemize}
+\divider
+
+\cvevent{Web Developer}{brick\&mobile}{Feb 2014 -- Aug 2014}{Toronto, Canada}
+\begin{itemize}
+\item Customized RADIUSdesk based on CodeIgniter uses PHP, MySQL, and Facebook API for Social Wi-Fi Marketing solution.
+\end{itemize}
+\divider
+
+\cvevent{Software Developer Intern}{BusyNeed}{Oct 2012 -- Dec 2012}{Ho Chi Minh City, Vietnam}
+\begin{itemize}
+\item Built RESTful web services use WCF for web crawling platform.
+\end{itemize}
+
+\cvsection{Education}
+
+\cvevent{Bachelor of Science in Computing}{University of Greenwich}{Nov 2012 -- Jul 2014}{Ho Chi Minh City, Vietnam}
+\divider
+
+\cvevent{Higher Diploma in Software Engineering}{Aptech Computer Education}{Jun 2010 -- Aug 2011}{Ho Chi Minh City, Vietnam}
+\divider
+
+\cvevent{Diploma in Information Systems Management}{Aptech Computer Education}{Jul 2009 -- Aug 2010}{Ho Chi Minh City, Vietnam}
+
+\clearpage
+
+\cvsection[page2sidebar]{Certificates}
+
+\cvevent{Test of English for International Communication}{Educational Testing Service}{Apr 2018}{Ho Chi Minh City, Vietnam}
+\begin{itemize}
+\item Listening: 345.
+\item Reading: 445.
+\end{itemize}
+\divider
+
+\cvevent{Scrum Master Accredited Certification}{International Scrum Institute™}{Dec 2016}{Ho Chi Minh City, Vietnam}
+\divider
+
+\cvevent{M101JS: MongoDB for Node.js Developers}{MongoDB}{Dec 2016}{Ho Chi Minh City, Vietnam}
+
+\cvsection{Extracurricular Activities}
+
+\cvevent{Elite Member}{Hacker Vietnam Association}{Jun 2003 -- Sep 2014}{Ho Chi Minh City, Vietnam}
+\begin{itemize}
+\item Performed troubleshooting of members' issues.
+\item Focused on web application exploits and vulnerabilities.
+\item Contributed articles about AutoIt for automation on MS Windows.
+\end{itemize}
+
+\end{document}
